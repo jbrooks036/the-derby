@@ -1,0 +1,13 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"Bob Jones",
+  "photo": url,
+  "photo":"http://images.com/bob.jpg",
+  "spouse":{"name": "Sara Jones","photo": url},
+  "cash":12834.45,
+  "things":[{"name":"ring", "photo":url, "value":5000},
+            {"name":"tv", "photo":url, "value":1000},
+            {"name":"car", "photo":url, "value":5000}]
+  "results":{"wins":0, "losses":0},
+}
+
