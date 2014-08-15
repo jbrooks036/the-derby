@@ -1,13 +1,36 @@
 {
   "_id":{"$oid":"000000000000000000000001"},
   "name":"Bob Jones",
-  "photo": url,
-  "photo":"http://images.com/bob.jpg",
-  "spouse":{"name": "Sara Jones","photo": url},
+  "photo": "http://www.panamahatmall.com/images/denew007_M.jpg",
+  "spouse":{"name": "Betty","photo": "http://photofunia.com/img/script_images/516/large_icon.jpg"},
   "cash":12834.45,
-  "things":[{"name":"ring", "photo":url, "value":5000},
-            {"name":"tv", "photo":url, "value":1000},
-            {"name":"car", "photo":url, "value":5000}]
-  "results":{"wins":0, "losses":0},
+  "assets":[{"name":"jet", "photo":"http://www.orientskys.com/images/private-jet-Asia.jpg", "value":500000},
+            {"name":"summer cottage", "photo":"http://www.photo-dictionary.com/photofiles/list/9452/12852summer_cottage.jpg", "value":120000},
+            {"name":"car", "photo":"http://www.extremetech.com/wp-content/uploads/2012/12/Audi-A1.jpg", "value":15000}],
+  "results":{"wins":0, "losses":0}
+}
+
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Robbie Risker",
+  "photo": "http://online.wsj.com/media/0310pod19.jpg",
+  "spouse":{"name": "Rita","photo": "http://flapperscomedy.com/med/jules_headshot_2013.jpg"},
+  "cash":12834.45,
+  "assets":[{"name":"ring", "photo":"http://www.yankodesign.com/images/design_news/2006/03/20/killer_ring.jpg", "value":5000},
+            {"name":"house", "photo":"http://msa.maryland.gov/msa/homepage/html/i000669a.gif", "value":500000},
+            {"name":"car", "photo":"http://www.extremetech.com/wp-content/uploads/2012/12/Audi-A1.jpg", "value":15000}],
+  "results":{"wins":0, "losses":0}
+}
+
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"Casey Cason",
+  "photo": "http://d3ew4rh7xxgmkq.cloudfront.net/performer/57730/photos/57730-fdad60ed3fe1409e89596d9ab12ee42b-1.jpg",
+  "spouse":{"name": "Cathy","photo": "http://www.pokerplayer365.com/wp-content/uploads/2013/09/total_gambler_16147_15_opt_opt-300x300.jpg"},
+  "cash":12834.45,
+  "assets":[{"name":"ring", "photo":"http://www.yankodesign.com/images/design_news/2006/03/20/killer_ring.jpg", "value":5000},
+            {"name":"tv", "photo":"http://www.livestream.com/filestore/logos/8ad52e3b-c2cc-74a7-0774-1cb6998cab01-banner.jpg", "value":1000},
+            {"name":"yacht", "photo":"http://www.activeautoinsurance.com/wp-content/uploads/2014/07/boat-3.jpg", "value": 140000}],
+  "results":{"wins":0, "losses":0}
 }
 
